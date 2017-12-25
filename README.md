@@ -14,6 +14,6 @@ opencv2
 ### test
 `python main.py`   
 
-##そもそも   
+## そもそも    
 mnistでvae   
 モデルはエンコーダー(conv2層・全結合層)、デコーダー(全結合層・deconv2層)   
