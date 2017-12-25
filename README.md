@@ -9,10 +9,10 @@ opencv2
 
 ## Usage   
 ### train   
-`python main.py --train True'   
+`python main.py --train True`   
 
 ### test
-`python main.py'   
+`python main.py`   
 
 ##そもそも   
 mnistでvae   
