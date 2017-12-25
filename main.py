@@ -6,8 +6,6 @@ import input_data
 import os
 import numpy as np
 import scipy.misc
-import re
-from glob import glob
 import tensorflow as tf
 
 flags = tf.app.flags
@@ -16,12 +14,6 @@ flags.DEFINE_integer("hidden_size", 512, "hidden_size")
 flags.DEFINE_integer("epoch", 50, "epoch")
 flags.DEFINE_boolean("train", False, "True for training, False for testing [False]")
 FLAGS = flags.FLAGS
-
-def numericalSort(value):
-    numbers = re.compile(r'(\d+)')
-    parts = numbers.split(value)
-    parts[1::2] = map(int, parts[1::2])
-    return parts
 
 def main():
 	if not os.path.exists("generated"):
