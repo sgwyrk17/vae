@@ -1,8 +1,7 @@
 # vae   
 
 ## Required   
-tensorflow 0.8.0   
-glob(画像のパスを取得するため)   
+tensorflow 0.8.0     
 numpy   
 scipy   
 opencv2   
